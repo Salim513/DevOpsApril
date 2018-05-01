@@ -33,7 +33,7 @@ SKIP(){
 }
 
 
-yum install httpd gcc httpd-devel -y &>>$LOG
+yum install httpd gcc httpd-devel java -y &>>$LOG
 
 VALIDATE $? "Installing web server, gcc, httpd-devel"
 
